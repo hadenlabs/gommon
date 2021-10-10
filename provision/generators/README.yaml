@@ -1,0 +1,55 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: gommon
+
+email:
+  support: support@hadenlabs.com
+
+confluence:
+  space: Gommon
+  title: readme
+
+# Logo for this project
+#logo: docs/logo.png
+
+# License of this project
+license: 'LGPL-3.0'
+
+# Canonical GitHub repo
+github_repo: hadenlabs/gommon
+
+# Badges to display
+badges:
+  - name: Latest Release
+    image: https://img.shields.io/github/release/hadenlabs/gommon
+    url: https://github.com/hadenlabs/gommon/releases
+  - name: Lint
+    image: https://img.shields.io/github/workflow/status/hadenlabs/gommon/lint-code
+    url: https://github.com/hadenlabs/gommon/actions?workflow=lint-code
+  - name: pre-commit
+    image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+    url: https://github.com/pre-commit/pre-commit
+  - name: Conventional Commits
+    image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
+    url: https://conventionalcommits.org
+  - name: KeepAChangelog
+    image: https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735
+    url: https://keepachangelog.com
+
+requirements: |-
+
+  This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
+
+  - [Docker](https://www.docker.com)
+  - [python](https://www.python.org)
+  - [taskfile](https://github.com/go-task/task)
+
+# Short description of this project
+description: |-
+
+  gommon for project
