@@ -28,7 +28,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: 'hadenlabs/terraform-aws-iam-user'
+  IMAGE_NAME: 'hadenlabs/gommon'
 
 jobs:
   test:
