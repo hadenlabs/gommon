@@ -4,6 +4,7 @@ includes:
   changelog: ./provision/task/changelog.yml
   python: ./provision/task/python.yml
   git: ./provision/task/git.yml
+  go: ./provision/task/go.yml
   docs: ./provision/task/docs.yml
   docker: ./provision/task/docker.yml
   gitflow: ./provision/task/gitflow.yml
@@ -74,6 +75,7 @@ tasks:
       - python:check
       - changelog:check
       - git:check
+      - go:check
       - gitflow:check
       - docs:check
       - sonar:check
