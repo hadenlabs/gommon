@@ -1,7 +1,3 @@
-<!-- Space: Gommon -->
-<!-- Parent: Project -->
-<!-- Title: Testing -->
-
 # Testing
 
 ## Running tests
