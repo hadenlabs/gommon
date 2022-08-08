@@ -97,6 +97,18 @@ tasks:
     cmds:
       - task: prettier:all
 
+  test:
+    run: once
+    desc: test all
+    cmds:
+      - task: go:test
+
+  fmt:
+    run: once
+    desc: fmt all
+    cmds:
+      - task: go:fmt
+
   setup:
     desc: Setup dependences of project
     cmds:

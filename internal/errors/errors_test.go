@@ -16,14 +16,14 @@ func TestFormat(t *testing.T) {
 
 func TestNotReadConfig(t *testing.T) {
 	err := New(ErrorReadConfig, "")
-	assert.Equal(t, "config read error", fmt.Sprintf("%v", err))
-	assert.Contains(t, fmt.Sprintf("%+v", err), "config read error", err) // with stacktrace
+	assert.Equal(t, "Config read error", fmt.Sprintf("%v", err))
+	assert.Contains(t, fmt.Sprintf("%+v", err), "Config read error", err) // with stacktrace
 }
 
 func TestNotParseConfig(t *testing.T) {
 	err := New(ErrorParseConfig, "")
-	assert.Equal(t, "config parse error", fmt.Sprintf("%v", err))
-	assert.Contains(t, fmt.Sprintf("%+v", err), "config parse error", err) // with stacktrace
+	assert.Equal(t, "Config parse error", fmt.Sprintf("%v", err))
+	assert.Contains(t, fmt.Sprintf("%+v", err), "Config parse error", err) // with stacktrace
 }
 
 func TestIsKind(t *testing.T) {
